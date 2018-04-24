@@ -22,6 +22,7 @@ var express = require("express"),
     mkdirp = require("mkdirp"),
     multiparty = require('multiparty'),
     app = express(),
+    cors = require('cors'),
 
     // paths/constants
     fileInputName = process.env.FILE_INPUT_NAME || "qqfile",
@@ -34,6 +35,9 @@ var express = require("express"),
 
 
 app.listen(port);
+
+// enable CORs
+app.use(cors());
 
 // routes
 app.use(express.static(publicDir));
