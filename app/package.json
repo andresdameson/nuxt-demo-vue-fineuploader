@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "ajv": "^6.4.0",
-    "nuxt": "^1.0.0",
+    "nuxt": "^1.4.0",
     "vue-fineuploader": "^2.0.0-rc.9"
   },
   "devDependencies": {
