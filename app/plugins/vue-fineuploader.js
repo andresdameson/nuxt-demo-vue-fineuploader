@@ -13,10 +13,10 @@ const VueFileUploaderPlugin = {
           options: {
             deleteFile: {
               enabled: true,
-              endpoint: 'my/upload/endpoint'
+              endpoint: 'http://localhost:3031/uploads'
             },
             request: {
-              endpoint: 'my/upload/endpoint'
+              endpoint: 'http://localhost:3031/uploads'
             }
           }
         })

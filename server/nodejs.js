@@ -25,11 +25,11 @@ var express = require("express"),
 
     // paths/constants
     fileInputName = process.env.FILE_INPUT_NAME || "qqfile",
-    publicDir = process.env.PUBLIC_DIR,
-    nodeModulesDir = process.env.NODE_MODULES_DIR,
-    uploadedFilesPath = process.env.UPLOADED_FILES_DIR,
+    publicDir = process.env.PUBLIC_DIR || __dirname + "/",
+    nodeModulesDir = process.env.NODE_MODULES_DIR || "node_modules/",
+    uploadedFilesPath = process.env.UPLOADED_FILES_DIR || "uploads/",
     chunkDirName = "chunks",
-    port = process.env.SERVER_PORT || 8000,
+    port = process.env.SERVER_PORT || 3031,
     maxFileSize = process.env.MAX_FILE_SIZE || 0; // in bytes, 0 for unlimited
 
 
