@@ -1,22 +1,29 @@
-# nuxt-demo-vue-fineuploader
+# NUXT demo for vue-fineuploader
 
-> NUXT demo for Vue FineUploader
+> Basic NUXT demo for Vue FineUploader
 
-## Build Setup
+## Installation
 
 ``` bash
-# install dependencies
-$ npm install # Or yarn install
+## to install frontend dependencies go to "app" folder an run
+$ npm install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
+## then go to "server" folder to install backend dependencies an run
+$ npm install
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## Running the demo
+``` bash
+## go to server folder an run
+$ node nodejs.js
+## (localhost:3031 must be free)
+
+## then in a new console window run
+$ npm run dev
+
+## go to localhost:3000 to see the demo
+```
+
+## Docs
+- More info of Vue FineUploader on https://github.com/FineUploader/vue-fineuploader
+- For detailed explanation on how NUXT works, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js)
